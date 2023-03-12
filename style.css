@@ -25,6 +25,13 @@ p {
     color:blueviolet;
 }
 
+.bayan-title:hover::after 
+{ display:block;
+  content: '+';
+  position: absolute;
+  right: 12px;
+}
+
 .bayan-shtuka {
     border: 1px solid green;
     cursor:pointer;
@@ -46,11 +53,11 @@ p {
     display:block;
 }
 
-.bayen-title { 
+.bayan-title { 
     padding: 10px 15px;
     display:flex;
     justify-content: space-between;
     position: relative;
 }
-.bayan-title::after { content: '+'}
+
 
