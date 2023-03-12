@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+
+    background-color: bisque;
+}
+
+*
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 0 5px;
+}
+
+.bayan {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.bayan:hover {
+    color:blueviolet;
+}
+
+.bayan-shtuka {
+    border: 1px solid green;
+    cursor:pointer;
+}
+
+.bayan-input {
+    width:0;
+    height:0;
+    appearance: none;
+    web-kit-appearance: none;
+}
+
+.bayan-meme {
+    display:none;
+}
+
+.bayan-input:checked + .bayan-meme {
+    display:block;
+}
+
+.bayan-title::after { content: '+'}
+
+.bayen-title { 
+    margin:400px;
+
+}
