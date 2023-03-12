@@ -28,6 +28,7 @@ p {
 .bayan-shtuka {
     border: 1px solid green;
     cursor:pointer;
+    margin-bottom: 10px;
 }
 
 .bayan-input {
@@ -45,9 +46,11 @@ p {
     display:block;
 }
 
+.bayen-title { 
+    padding: 10px 15px;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+}
 .bayan-title::after { content: '+'}
 
-.bayen-title { 
-    margin:400px;
-
-}
