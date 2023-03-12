@@ -1,8 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     line-height: 1.5;
-
     background-color: bisque;
 }
 
@@ -13,12 +12,13 @@ body {
 }
 
 p {
-    margin: 0 0 5px;
+    margin: 0 0 5%;
 }
 
 .bayan {
-    max-width: 500px;
-    margin: 20px auto;
+    width: 50vw;
+    height: 50vh;
+    margin: 5% auto;
 }
 
 .bayan:hover {
@@ -29,13 +29,13 @@ p {
 { display:block;
   content: '+';
   position: absolute;
-  right: 12px;
+  right: 5%;
 }
 
 .bayan-shtuka {
-    border: 1px solid green;
+    border: 0.1rem solid green;
     cursor:pointer;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 .bayan-input {
@@ -60,4 +60,6 @@ p {
     position: relative;
 }
 
-
+.bayan-shtuka [open] .bayan-title:hover::after {
+    transform: translateY(-50% rotate(90deg));
+}
