@@ -47,6 +47,7 @@ p {
 
 .bayan-meme {
     display:none;
+    cursor: pointer;
 }
 
 .bayan-input:checked + .bayan-meme {
@@ -54,6 +55,7 @@ p {
 }
 
 .bayan-title { 
+    cursor:pointer;
     padding: 10px 15px;
     display:flex;
     justify-content: space-between;
